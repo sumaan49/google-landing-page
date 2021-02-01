@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  height: 50px;
+}
+.navbar {
+  height: 70px;
+  margin: 10px;
+}
+
+.left {
+  float: left;
+  width: 140px;
+
+}
+
+.right {
+  display: inline;
+  float: right;
+  width: 270px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(46, 43, 43);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.app {
+  height:25px;
+  width: auto;
+  border-radius: 20%;
+  border: none;
+}
+.app:hover {
+  background-color: rgb(211, 206, 206);
+}
+
+#signIn {
+  background-color: rgb(38, 107, 236);
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 0px;
+  color: white;
+}
+
+.wrapper {
+  display: block;
+  margin-top: 30px;
+  height: 300px;
+  position: relative;
+}
+.banner {
+  display: block;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+.search-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 45px;
+  border-radius: 40px;
+  outline: none;
+  border: 1px solid rgb(196, 193, 193);
+  padding: 10px 40px 10px 40px;
+}
+
+.magnifier {
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  color: rgb(196, 193, 193);
+}
+
+.microphone {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  color: rgb(196, 193, 193);
+}
+
+.two-buttons {
+  height: 35px;
+  margin-top: 95px;
+  text-align: center;
+  padding: 5px 50px 5px 50px;
+}
+
+.bottom {
+  width: 130px;
+  padding: 10px;
+  margin: 5px;
+  border:  none;
+  background-color: rgb(245, 245, 245);
+  color:rgb(83, 83, 83);
+}
+
+.bottom:hover {
+  border: 1px rgb(209, 206, 206) solid;
+}
